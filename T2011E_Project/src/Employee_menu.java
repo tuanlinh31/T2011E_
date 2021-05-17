@@ -38,10 +38,11 @@ public class Employee_menu {
     }
 
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        int index =0;
-        Employee emp1= new Employee();
-        while(index <10) {
+
+        int choice = 0;
+
+
+        do{
             System.out.println("Looping...");
             System.out.println("==== MENU ====");
             System.out.println("**** 1. ADD Employee");
@@ -51,8 +52,9 @@ public class Employee_menu {
             System.out.println("****    ****");
 
             System.out.println("Enter your choice: ");
-            int choice = s.nextInt();
-
+            Scanner s = new Scanner(System.in);
+            choice = s.nextInt();
+            Employee emp1= new Employee();
 
             switch (choice) {
                 case 1:
@@ -73,8 +75,8 @@ public class Employee_menu {
                     break;
             }
 
-            index++;
         }
+        while(choice !=4);
 
     }
 
