@@ -40,7 +40,7 @@ public class Employee_menu {
     public static void main(String[] args) {
 
         int choice = 0;
-
+        Employee emp1= new Employee();
 
         do{
             System.out.println("Looping...");
@@ -54,10 +54,11 @@ public class Employee_menu {
             System.out.println("Enter your choice: ");
             Scanner s = new Scanner(System.in);
             choice = s.nextInt();
-            Employee emp1= new Employee();
+
 
             switch (choice) {
                 case 1:
+                    emp1= new Employee();
                     emp1.input();
                     break;
                 case 2:
