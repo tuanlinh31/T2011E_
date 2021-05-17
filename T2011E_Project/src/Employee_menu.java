@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
 public class Employee_menu {
-    String empName;
-    String empAdr;
-    int empTel;
-    int empBirthYear;
-    int empJoinYear;
+    private String empName;
+    private String empAdr;
+    private int empTel;
+    private int empBirthYear;
+    private int empJoinYear;
 
-    void input(){
+
+    public void input(){
         Scanner s = new Scanner(System.in);
         System.out.println("Nhap ten nhan vien: ");
         empName = s.nextLine();
@@ -25,7 +26,7 @@ public class Employee_menu {
         empJoinYear =s.nextInt();
     }
 
-    void displayEmpInformation(){
+    public void displayEmpInformation(){
         System.out.println("Ten: " + empName);
         System.out.println("Adr: " + empAdr);
         System.out.println("So dien thoai: " + empTel);

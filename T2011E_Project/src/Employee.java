@@ -6,6 +6,14 @@ public class Employee {
     int empTel;
     int empBirthYear;
     int empJoinYear;
+    public String getEmpName(){
+        return empName;
+    }
+
+    public void setEmpName(String empName1){
+        empName = empName1;
+    }
+
 
     void input(){
         Scanner s = new Scanner(System.in);
@@ -77,6 +85,7 @@ index++;
         }
 
     }
+
 
 
 }
