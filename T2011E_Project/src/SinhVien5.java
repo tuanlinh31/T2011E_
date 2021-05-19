@@ -108,7 +108,7 @@ public class SinhVien5 {
                                 _sv.hienThiSinhVien1();
                             }
                         }
-                        break;
+
                     case 4:
                         for (int i = 0; i < sinhviens.length && i < count; i++) {
                             SinhVien5 _sv1 = sinhviens[i];
@@ -116,7 +116,6 @@ public class SinhVien5 {
                                 _sv1.hienThiSinhVien0();
                             }
                         }
-                        break;
                 }
             } while (choice != 5);
         }
