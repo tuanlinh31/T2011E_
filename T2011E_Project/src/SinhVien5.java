@@ -112,7 +112,7 @@ public class SinhVien5 {
                     case 4:
                         for (int i = 0; i < sinhviens.length && i < count; i++) {
                             SinhVien5 _sv1 = sinhviens[i];
-                            if (_sv1.getbyear() >= 1995 && _sv1.getFullName().equals("nam")) {
+                            if (_sv1.getbyear() <= 1995 && _sv1.getFullName().equals("nam")) {
                                 _sv1.hienThiSinhVien0();
                             }
                         }
