@@ -1,14 +1,16 @@
 import java.util.Scanner;
 
 public class SinhVien {
-    String ten;
-    int tuoi;
-    String diachi;
-    int namsinh;
-    String gioitinh;
-    int sdt;
-    String linkfb;
-
+    private String ten;
+    private int tuoi;
+    private String diachi;
+    private int namsinh;
+    private String gioitinh;
+    private String sdt;
+    private String linkfb;
+    public String getFullName(){
+        return ten;
+    }
     public void nhapSinhvien(){
         Scanner s = new Scanner(System.in);
         System.out.println("Nhap ten Sinh vien: ");
@@ -29,9 +31,8 @@ public class SinhVien {
         gioitinh = s.nextLine();
 
         System.out.println("Nhap so dien thoai Sinh vien: ");
-        sdt = s.nextInt();
+        sdt = s.nextLine();
 
-        s.nextLine();
         System.out.println("Nhap link facebook Sinh vien: ");
         linkfb = s.nextLine();
 
@@ -46,7 +47,7 @@ public class SinhVien {
         System.out.println("So dien thoai: " + sdt);
         System.out.println("Link facebook: " + linkfb);
     }
-    public  void  thayDoiSDT(int sdt){
+    public  void  thayDoiSDT(String sdt){
         this.sdt = sdt;
     }
 
@@ -80,7 +81,7 @@ public class SinhVien {
                 case 3:
                     Scanner t = new Scanner(System.in);
                     System.out.println("Nhap vao so dien thoai moi: ");
-                    int td = t.nextInt();
+                    String td = t.nextLine();
                     sv.thayDoiSDT(td);
                     sv.hienThiSinhVien();
                     break;
