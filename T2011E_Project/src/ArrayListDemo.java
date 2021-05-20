@@ -56,32 +56,32 @@ public class ArrayListDemo {
         return qt;
     }
     public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("Enter the size of the array that is to be created::");
-//        int size = sc.nextInt();
-//        int[] myArray = new int[size];
-//        System.out.println("Enter the elements of the array ::");
-//
-//        for(int i=0; i<size; i++) {
-//            myArray[i] = sc.nextInt();
-//        }
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of the array that is to be created::");
+        int size = sc.nextInt();
+        int[] myArray = new int[size];
+        System.out.println("Enter the elements of the array ::");
+
+        for(int i=0; i<size; i++) {
+            myArray[i] = sc.nextInt();
+        }
         ArrayListDemo a = new ArrayListDemo();
-        int myArray[] = a.store;
+//        int myArray[] = a.store;
 //        int arr[] = a.store();
 
 //        System.out.println("Array created is :: "+ Arrays.toString(arr));
 
-//        int sum = a.sumArray(myArray);
-//        System.out.println(sum);
-//
-//        int dif = a.subArray(myArray);
-//        System.out.println(dif);
-//
-//        int pdt = a.mulArray(myArray);
-//        System.out.println(pdt);
+        int sum = a.sumArray(myArray);
+        System.out.println(sum);
 
-          float qt = a.divArray(myArray);
-          System.out.println(qt);
+        int dif = a.subArray(myArray);
+        System.out.println(dif);
+
+        int pdt = a.mulArray(myArray);
+        System.out.println(pdt);
+
+        float qt = a.divArray(myArray);
+        System.out.println(qt);
 
     }
 }
