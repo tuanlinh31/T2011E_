@@ -1,3 +1,5 @@
+package baitapsinhvien;
+
 import java.util.Scanner;
 
 public class SinhVien_main {
@@ -28,7 +30,7 @@ public class SinhVien_main {
                         SinhVien _sv = sinhviens[i];
                         _sv.hienThiSinhVien();
                     }
-//                    for(SinhVien _sv :sinhviens){
+//                    for(baitapsinhvien.SinhVien _sv :sinhviens){
 //                        _sv.hienThiSinhVien();
 //                    }
                     break;

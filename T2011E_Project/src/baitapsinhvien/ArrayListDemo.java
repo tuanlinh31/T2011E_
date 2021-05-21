@@ -1,3 +1,5 @@
+package baitapsinhvien;
+
 import java.util.Scanner;
 
 public class ArrayListDemo {
