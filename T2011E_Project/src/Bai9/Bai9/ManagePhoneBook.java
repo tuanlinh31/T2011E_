@@ -6,7 +6,7 @@ public class ManagePhoneBook {
     public static void main(String[] args) {
         int choice = 0;
         Scanner s = new Scanner(System.in);
-        PhoneBook pb = new PhoneBook();
+        Bai9.PhoneBook pb = new Bai9.PhoneBook();
         do{
             System.out.println("----------Menu-----------");
             System.out.println("---1. Insert Phone-----------");
@@ -56,7 +56,7 @@ public class ManagePhoneBook {
                     pb.sort();
                     for(int i =0;i< pb.phoneList.size();i++) {
                         Object o = pb.phoneList.get(i);
-                        Phone p = (Phone) o;
+                        Bai9.Phone p = (Bai9.Phone) o;
                         System.out.println("Da update " +p.name + "sdt" + p.phone);
                     }
                     break;

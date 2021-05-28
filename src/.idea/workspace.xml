@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a391429-96b5-471b-b881-4479dcff01da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../T2011E_Project/src/Bai9/ManagePhoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T2011E_Project/src/Bai9/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T2011E_Project/src/Bai9/PhoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T2011E_final.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2011E_Project/out/production/T2011E_Project/BaiTapKeThua/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../T2011E_Project/out/production/T2011E_Project/BaiTapKeThua/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2011E_Project/out/production/T2011E_Project/BaiTapKeThua/Persion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../T2011E_Project/out/production/T2011E_Project/BaiTapKeThua/Persion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2011E_Project/out/production/T2011E_Project/BaiTapKeThua/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../T2011E_Project/out/production/T2011E_Project/BaiTapKeThua/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2011E_Project/out/production/T2011E_Project/BaiTapKeThua/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../T2011E_Project/out/production/T2011E_Project/BaiTapKeThua/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2011E_Project/src/BaiTapKeThua/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T2011E_Project/src/BaiTapKeThua/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2011E_Project/src/BaiTapKeThua/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T2011E_Project/src/BaiTapKeThua/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2011E_Project/src/BaiTapKeThua/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T2011E_Project/src/BaiTapKeThua/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
