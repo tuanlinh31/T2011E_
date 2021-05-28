@@ -19,4 +19,11 @@ public class Student extends Persion{
     public void setId(String id) {
         this.id = id;
     }
+
+    public void display(){
+        System.out.println("sdt: " + sdt);
+        System.out.println("ten: " + ten);
+        System.out.println("id: " + id);
+        System.out.println("dia chi: " + diachi);
+    }
 }

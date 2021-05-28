@@ -19,4 +19,11 @@ public class Teacher extends Persion{
     public void setLvl(String lvl) {
         this.lvl = lvl;
     }
+
+    public void display1(){
+        System.out.println("sdt: " + sdt);
+        System.out.println("ten: " + ten);
+        System.out.println("id: " + lvl);
+        System.out.println("dia chi: " + diachi);
+    }
 }

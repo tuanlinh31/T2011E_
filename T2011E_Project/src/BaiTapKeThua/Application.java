@@ -8,7 +8,13 @@ public class Application {
         s.setTen("Name 1");
         s.setSdt("99999");
 
+        s.display();
+
+
+
         Teacher t = new Teacher("T1", "T1", "T1", "T1");
+
+
 
     }
 }
