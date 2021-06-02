@@ -3,7 +3,7 @@ package Bai9;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class PhoneBook extends Phone{
+public class PhoneBook extends Bai9.Phone {
     ArrayList phoneList = new ArrayList();
 
     @Override
@@ -11,7 +11,7 @@ public class PhoneBook extends Phone{
         boolean trung = false;
         for(int i =0;i<phoneList.size();i++){
             Object o = phoneList.get(i);
-            Phone p = (Phone) o;
+            Bai9.Phone p = (Bai9.Phone) o;
             if(p.name.equals(name)){
                 //trung ten
                 trung = true;
@@ -29,7 +29,7 @@ public class PhoneBook extends Phone{
         }
         if(!trung){
             //khong ton tai "name" trong phoneList
-            Phone p = new PhoneBook();
+            Bai9.Phone p = new PhoneBook();
             p.name = name;
             p.phone = phone;
             phoneList.add(p);
@@ -42,7 +42,7 @@ public class PhoneBook extends Phone{
 
         for(int i =0;i<phoneList.size();i++) {
             Object o = phoneList.get(i);
-            Phone p = (Phone) o;
+            Bai9.Phone p = (Bai9.Phone) o;
             if(p.name.equals(name)){
                 trung = true;
                 phoneList.remove(p);
